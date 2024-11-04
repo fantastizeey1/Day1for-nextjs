@@ -19,12 +19,12 @@ export default async function Page() {
 
     // const latestInvoices = await fetchLatestInvoices();
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const {
-        numberOfInvoices,
-        numberOfCustomers,
-        totalPaidInvoices,
-        totalPendingInvoices,
-    } = await fetchCardData();
+    // const {
+    //     numberOfInvoices,
+    //     numberOfCustomers,
+    //     totalPaidInvoices,
+    //     totalPendingInvoices,
+    // } = await fetchCardData();
     // const totalInvoiceCount = allInvoices.length;
     // const totalCustomerCount = allCustomers.length;
     return (
