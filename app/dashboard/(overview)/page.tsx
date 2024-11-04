@@ -3,11 +3,11 @@ import RevenueChart from '@/app/ui/dashboard/revenue-chart';
 import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 import { lusitana } from '@/app/ui/fonts';
 import { Suspense } from 'react';
-import { fetchCardData } from '@/app/lib/data';
+// import { fetchCardData } from '@/app/lib/data';
 import CardWrapper from '@/app/ui/dashboard/cards';
 import { RevenueChartSkeleton, LatestInvoicesSkeleton,CardsSkeleton } from '@/app/ui/skeletons';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import {  fetchLatestInvoices} from '@/app/lib/data';
+// import {  fetchLatestInvoices} from '@/app/lib/data';
 import { Metadata } from 'next';
 
 
