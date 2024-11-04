@@ -12,6 +12,7 @@ import {fetchRevenue} from "@/app/lib/data";
 // https://airbnb.io/visx/
 
 export default async function RevenueChart() { // Make component async, remove the props
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const revenue = await fetchRevenue(); // Fetch data inside the component
     // {
   const chartHeight = 350;
